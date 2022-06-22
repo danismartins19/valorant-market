@@ -1,0 +1,92 @@
+[
+    {
+      "Name": "Marshal",
+      "ID": "C4883E50-4494-202C-3EC3-6B8A9284F00B",
+      "weapon_name": "MARSHAL",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt545be89167b88e87/5eb281c4c7007e13a0530dd7/marshal.png",
+        "title": "marshal.png"
+      },
+      "weapon_tagline": "Hold an angle, breathe, and they’ll regret turning that corner.",
+      "weapon_category_machine_name": "snipers",
+      "weapon_hover_description": [
+        "A nimble lever-action sniper rifle with a single zoom that can keep bullish enemies at bay. A slow rate of fire means you have to either hit the mark or leave yourself open to attacks."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 50,
+            "Head": 202,
+            "Body": 101,
+            "Leg": 85
+          }
+        ],
+        "CredCost": 950,
+        "EquipSpeed": 1.25,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 5,
+        "ExtraMagazine": 3,
+        "TotalBullets": 20,
+        "FireRate": 1.5,
+        "Spread": 1,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "ADS_Run": 4.1,
+        "ADS_Walk": 2.46,
+        "Penetration": "Medium",
+        "Alternate": {
+          "Zoom": 2.5,
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0,
+          "FireRate": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Operator",
+      "ID": "A03B24D3-4319-996D-0F8C-94BBFBA1DFC7",
+      "weapon_name": "OPERATOR",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3e6bf41bd01ca11e/5eb281ca24400043b65016ba/operator.png",
+        "title": "operator.png"
+      },
+      "weapon_tagline": "Get cozy and you can control important ground.",
+      "weapon_category_machine_name": "snipers",
+      "weapon_hover_description": [
+        "A fierce bolt-action sniper rifle with high-powered dual zoom. Extremely immobile but fires an incredibly powerful round that can devastate a team with one shot."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 50,
+            "Head": 255,
+            "Body": 150,
+            "Leg": 127
+          }
+        ],
+        "CredCost": 4700,
+        "EquipSpeed": 1.25,
+        "ReloadSpeed": 3.7,
+        "MagazineBullets": 5,
+        "ExtraMagazine": 2,
+        "TotalBullets": 15,
+        "FireRate": 0.75,
+        "Spread": 5,
+        "Run": 5.13,
+        "Walk": 3.06,
+        "ADS_Run": 3.9,
+        "ADS_Walk": 2.33,
+        "Penetration": "High",
+        "Alternate": {
+          "DualZoom": [2.5, 5],
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0,
+          "FireRate": 0.75
+        }
+      }
+    }
+  ]

@@ -1,0 +1,246 @@
+[
+    {
+      "Name": "Classic",
+      "weapon_name": "CLASSIC",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt25bf56ede3e3c57c/5eb281c42278aa3e8d0ba7fa/classic.png",
+        "title": "classic.png"
+      },
+      "weapon_tagline": "Lightweight and versatile, the default weapon for all is an instant classic.",
+      "weapon_category_machine_name": "sidearms",
+      "weapon_hover_description": [
+        "Primary fire lands precise shots when still, and is equipped with an alternate burst-firing mode for close encounters."
+      ],
+      "ID": "29A0CFAB-485B-F5D5-779A-B59F85E204A8",
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 30,
+            "Head": 78,
+            "Body": 26,
+            "Leg": 22
+          },
+          {
+            "MinDistance": 31,
+            "MaxDistance": 50,
+            "Head": 66,
+            "Body": 22,
+            "Leg": 18
+          }
+        ],
+        "CredCost": 0,
+        "EquipSpeed": 0.75,
+        "ReloadSpeed": 1.75,
+        "MagazineBullets": 12,
+        "ExtraMagazine": 3,
+        "TotalBullets": 48,
+        "FireRate": 6.75,
+        "Spread": 0.4,
+        "Run": 5.73,
+        "Walk": 3.43,
+        "Penetration": "Low",
+        "Alternate": {
+          "Mode": "3-Round Burst",
+          "SpreadType": "Increase",
+          "Alt_Spread": 2.2,
+          "FireRate": 2.22
+        }
+      }
+    },
+    {
+      "Name": "Shorty",
+      "ID": "42DA8CCC-40D5-AFFC-BEEC-15AA47B42EDA",
+      "weapon_name": "SHORTY",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7b13117b3a4912a7/5eb281ca5e05b51483afd6bc/shorty.png",
+        "title": "shorty.png"
+      },
+      "weapon_tagline": "Surprise your enemy up close for max effectiveness.",
+      "weapon_category_machine_name": "sidearms",
+      "weapon_hover_description": [
+        "A nimble, short barrel shotgun that is deadly at close range but can only fire twice before needing to reload. Pairs well with long range weapons."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 7,
+            "Head": 24,
+            "Body": 12,
+            "Leg": 10
+          },
+          {
+            "MinDistance": 7,
+            "MaxDistance": 15,
+            "Head": 16,
+            "Body": 8,
+            "Leg": 6
+          },
+          {
+            "MinDistance": 15,
+            "MaxDistance": 50,
+            "Head": 6,
+            "Body": 3,
+            "Leg": 2
+          }
+        ],
+        "CredCost": 150,
+        "EquipSpeed": 0.75,
+        "ReloadSpeed": 1.75,
+        "MagazineBullets": 2,
+        "ExtraMagazine": 3,
+        "TotalBullets": 48,
+        "Pellets": 15,
+        "FireRate": 3.33,
+        "Spread": 4,
+        "Penetration": "Low",
+        "Run": 5.4,
+        "Walk": 3.23
+      }
+    },
+    {
+      "Name": "Frenzy",
+      "ID": "44D4E95C-4157-0037-81B2-17841BF2E8E3",
+      "weapon_name": "FRENZY",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt97e5c377459c2f3b/5eb281c43b09c042ddca13a1/frenzy.png",
+        "title": "frenzy.png"
+      },
+      "weapon_tagline": "Up close, hold the trigger. From afar...try something else.",
+      "weapon_category_machine_name": "sidearms",
+      "weapon_hover_description": [
+        "Lightweight machine pistol that excels at firing on the move. It’s high rate-of-fire can be difficult to control, so try short bursts at medium ranges."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 20,
+            "Head": 78,
+            "Body": 26,
+            "Leg": 22
+          },
+          {
+            "MinDistance": 20,
+            "MaxDistance": 50,
+            "Head": 63,
+            "Body": 21,
+            "Leg": 17
+          }
+        ],
+        "CredCost": 450,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 1.5,
+        "MagazineBullets": 13,
+        "ExtraMagazine": 3,
+        "TotalBullets": 52,
+        "FireRate": 10,
+        "Spread": 0.45,
+        "Run": 5.73,
+        "Walk": 3.43,
+        "Penetration": "Low"
+      }
+    },
+    {
+      "Name": "Ghost",
+      "ID": "1BAA85B4-4C70-1284-64BB-6481DFC3BB4E",
+      "weapon_name": "GHOST",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc4788d390015fb7c/5eb281c4105ab84c3815e164/ghost.png",
+        "title": "ghost.png"
+      },
+      "weapon_tagline": "Sleek, silenced, and proficient at any range.",
+      "weapon_category_machine_name": "sidearms",
+      "weapon_hover_description": [
+        "The Ghost is accurate and carries a large magazine if you miss. Distant targets require a controlled fire rate. Quickly tap the trigger when you can see the whites of their eyes."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 30,
+            "Head": 105,
+            "Body": 30,
+            "Leg": 25
+          },
+          {
+            "MinDistance": 30,
+            "MaxDistance": 50,
+            "Head": 87,
+            "Body": 25,
+            "Leg": 21
+          }
+        ],
+        "CredCost": 500,
+        "EquipSpeed": 0.75,
+        "ReloadSpeed": 1.5,
+        "MagazineBullets": 15,
+        "ExtraMagazine": 3,
+        "TotalBullets": 60,
+        "FireRate": 6.75,
+        "Spread": 0.3,
+        "Run": 5.73,
+        "Walk": 3.43,
+        "Penetration": "Medium",
+        "Extra": [
+          {
+            "Feature": "Silenced",
+            "Attributes": {
+              "Tracer": "Not visible to enemies",
+              "Sound": "Firing sound can't be heard at distances of 40m+ except in direction of fire"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Sheriff",
+      "ID": "E336C6B8-418D-9340-D77F-7A9E4CFE0702",
+      "weapon_name": "SHERIFF",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3bbed29a5475c7d4/5eb281ca2278aa3e8d0ba7fe/sheriff.png",
+        "title": "sheriff.png"
+      },
+      "weapon_tagline": "A modern six-shooter for the headshot searcher.",
+      "weapon_category_machine_name": "sidearms",
+      "weapon_hover_description": [
+        "It’s high-impact rounds pack a ton of recoil and require true grit to master.",
+        "Wield the Sheriff right, and your enemies will know they were expendable."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 20,
+            "Head": 159,
+            "Body": 55,
+            "Leg": 46
+          },
+          {
+            "MinDistance": 20,
+            "MaxDistance": 50,
+            "Head": 145,
+            "Body": 50,
+            "Leg": 42
+          }
+        ],
+        "CredCost": 800,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.25,
+        "MagazineBullets": 6,
+        "ExtraMagazine": 4,
+        "TotalBullets": 30,
+        "FireRate": 6.75,
+        "Spread": 0.4,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "Penetration": "High"
+      }
+    }
+  ]

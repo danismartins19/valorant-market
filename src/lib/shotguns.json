@@ -1,0 +1,146 @@
+[
+    {
+      "Name": "Bucky",
+      "ID": "910BE174-449B-C412-AB22-D0873436B21B",
+      "weapon_name": "BUCKY",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2cd5308e8bdfcc8c/5eb281c334a9963e8f9599de/bucky.png",
+        "title": "bucky.png"
+      },
+      "weapon_tagline": "Attacker. Defender. You’re the one with the pump-action shotgun.",
+      "weapon_category_machine_name": "shotguns",
+      "weapon_hover_description": [
+        "Heavy but stable, Bucky’s primary fire is for holding tight corners or charging close quarters. Alternate fire strikes targets at medium range."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 8,
+            "Head": 294,
+            "Body": 267,
+            "Leg": 172
+          },
+          {
+            "MinDistance": 8,
+            "MaxDistance": 12,
+            "Head": 108,
+            "Body": 115,
+            "Leg": 78
+          },
+          {
+            "MinDistance": 12,
+            "MaxDistance": 20,
+            "Head": 28,
+            "Body": 25,
+            "Leg": 19
+          }
+        ],
+        "CredCost": 850,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 5,
+        "ExtraMagazine": 2,
+        "TotalBullets": 15,
+        "Pellets": 15,
+        "FireRate": 1.1,
+        "Spread": 3.4,
+        "Run": 5.06,
+        "Walk": 3.02,
+        "Penetration": "low",
+        "Alternate": {
+          "SpreadType": "Air Burst",
+          "ADS_Spread": 2.25,
+          "FireRate": 1.1,
+          "Alt_Damage": [
+            {
+              "MinDistance": 0,
+              "MaxDistance": 8,
+              "Extra": {
+                "About": "Air Burst Peculiarity",
+                "Description": "Enxtended primary fire shot flies as one pellet thus reducing the damage significantly if distance is below 7.5 meters"
+              },
+              "Head": 40,
+              "Body": 20,
+              "Leg": 15
+            },
+            {
+              "MinDistance": 8,
+              "MaxDistance": 12,
+              "Head": 600,
+              "Body": 345,
+              "Leg": 209
+            },
+            {
+              "MinDistance": 12,
+              "MaxDistance": 20,
+              "Head": 49,
+              "Body": 57,
+              "Leg": 36
+            }
+          ]
+        },
+        "Extra": {
+          "Feature": "Air Burst",
+          "Attributes": {
+            "Canister": "Fires a canister that detonates after a 7.5m distance, spraying pellets",
+            "Damage": "Canister does virtually no damage until it detonates"
+          }
+        }
+      }
+    },
+    {
+      "Name": "Judge",
+      "ID": "EC845BF4-4F79-DDDA-A3DA-0DB3774B2794",
+      "weapon_name": "JUDGE",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt82404f7b88f8c612/5eb281c45050514d1a507146/judge.png",
+        "title": "judge.png"
+      },
+      "weapon_tagline": "Automatic, rapid fire shotgun that provides sustained high damage.",
+      "weapon_category_machine_name": "shotguns",
+      "weapon_hover_description": [
+        "The Judge is stable at the stand but volatile when fired rapidly.",
+        "Primary fire hammers short range targets and you’ll need to be steady to nail anything beyond an arm's-length."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 5,
+            "Head": 253,
+            "Body": 202,
+            "Leg": 99
+          },
+          {
+            "MinDistance": 5,
+            "MaxDistance": 10,
+            "Head": 173,
+            "Body": 128,
+            "Leg": 93
+          },
+          {
+            "MinDistance": 10,
+            "MaxDistance": 20,
+            "Head": 34,
+            "Body": 42,
+            "Leg": 31
+          }
+        ],
+        "CredCost": 1850,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.2,
+        "MagazineBullets": 7,
+        "ExtraMagazine": 3,
+        "TotalBullets": 28,
+        "Pellets": 12,
+        "FireRate": 3.5,
+        "Spread": 2.25,
+        "Run": 5.06,
+        "Walk": 3.02,
+        "Penetration": "Medium"
+      }
+    }
+  ]

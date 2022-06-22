@@ -1,0 +1,208 @@
+[
+    {
+      "Name": "Bulldog",
+      "ID": "AE3DE142-4D85-2547-DD26-4E90BED35CF7",
+      "weapon_name": "BULLDOG",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4a396bf5a06e6b4/5eb281c4edfeb076e2050387/bulldog.png",
+        "title": "bulldog.png"
+      },
+      "weapon_tagline": "Some kind of happiness is measured out in taking down enemies with the Bulldog",
+      "weapon_category_machine_name": "rifles",
+      "weapon_hover_description": [
+        "A surefire beast when you can pick your shots. Alt. fire let’s you ADS and spew accurate, short bursts at anyone who tries you from medium to long-range."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 50,
+            "Head": 116,
+            "Body": 35,
+            "Leg": 30
+          }
+        ],
+        "CredCost": 2050,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 24,
+        "ExtraMagazine": 3,
+        "TotalBullets": 96,
+        "FireRate": 9.14,
+        "Spread": 0.3,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "ADS_Run": 4.1,
+        "ADS_Walk": 2.46,
+        "Penetration": "Medium",
+        "Alternate": {
+          "Mode": "3-Round Burst",
+          "Zoom": "1.25",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Not affected",
+          "ADS_Spread": 0.1,
+          "FireRate": 6.31
+        }
+      }
+    },
+    {
+      "Name": "Guardian",
+      "ID": "4ADE7FAA-4CF1-8376-95EF-39884480959B",
+      "weapon_name": "GUARDIAN",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd78ee0533f30e0a8/5eb281c4402b8b4d13a566dc/guardian.png",
+        "title": "guardian.png"
+      },
+      "weapon_tagline": "Shines in the hands of a patient shooter.",
+      "weapon_category_machine_name": "rifles",
+      "weapon_hover_description": [
+        "The designated marksman rifle. Heavier and less mobile relative to other rifles but precise and powerful. Headhunt when enemies appear at medium to long distances."
+      ],
+      "Stats": {
+        "Mode": "Semi-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 50,
+            "Head": 195,
+            "Body": 65,
+            "Leg": 49
+          }
+        ],
+        "CredCost": 2250,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 12,
+        "ExtraMagazine": 3,
+        "TotalBullets": 48,
+        "FireRate": 4.75,
+        "Spread": 0.1,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "ADS_Run": 4.1,
+        "ADS_Walk": 2.46,
+        "Penetration": "High",
+        "Alternate": {
+          "Zoom": "1.5",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0,
+          "FireRate": 4.275
+        }
+      }
+    },
+    {
+      "Name": "Phantom",
+      "ID": "EE8E8D15-496B-07AC-E5F6-8FAE5D4C7B1A",
+      "weapon_name": "PHANTOM",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt04ac3b5158b8466a/5eb281caa44a154c3ef84a82/phantom.png",
+        "title": "phantom.png"
+      },
+      "weapon_tagline": "A balanced weapon built for stable, extended shots.",
+      "weapon_category_machine_name": "rifles",
+      "weapon_hover_description": [
+        "Go full auto for anyone who tests you up close and short controlled bursts scramble enemies from anywhere. Best when fired while stationary."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 15,
+            "Head": 156,
+            "Body": 39,
+            "Leg": 33
+          },
+          {
+            "MinDistance": 15,
+            "MaxDistance": 30,
+            "Head": 140,
+            "Body": 35,
+            "Leg": 30
+          },
+          {
+            "MinDistance": 30,
+            "MaxDistance": 50,
+            "Head": 124,
+            "Body": 31,
+            "Leg": 26
+          }
+        ],
+        "CredCost": 2900,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 30,
+        "ExtraMagazine": 3,
+        "TotalBullets": 120,
+        "FireRate": 11,
+        "Spread": 0.2,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "ADS_Run": 4.1,
+        "ADS_Walk": 2.46,
+        "Penetration": "Medium",
+        "Alternate": {
+          "Zoom": "1.25",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0.11,
+          "FireRate": 9.9
+        },
+        "Extra": {
+          "Feature": "Silenced",
+          "Attributes": {
+            "Tracers": "Not visible to enemies",
+            "Sound": "Firing sound can't be heard at distances of 40m+ except in direction of fire"
+          }
+        }
+      }
+    },
+    {
+      "Name": "Vandal",
+      "ID": "9C82E19D-4575-0200-1A81-3EACF00CF872",
+      "weapon_name": "VANDAL",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt323df4a0d8210605/5eb281cb3b09c042ddca13a5/vandal.png",
+        "title": "vandal.png"
+      },
+      "weapon_tagline": "This accurate powerhouse is ferocious in small bursts.",
+      "weapon_category_machine_name": "rifles",
+      "weapon_hover_description": [
+        "Extended fire results in less stability, however. The Vandal retains high damage over distance and rewards those who focus single shots at a target’s head."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 50,
+            "Head": 156,
+            "Body": 39,
+            "Leg": 33
+          }
+        ],
+        "CredCost": 2900,
+        "EquipSpeed": 1,
+        "ReloadSpeed": 2.5,
+        "MagazineBullets": 25,
+        "ExtraMagazine": 3,
+        "TotalBullets": 100,
+        "FireRate": 11,
+        "Spread": 0.2,
+        "Run": 5.4,
+        "Walk": 3.23,
+        "ADS_Run": 4.1,
+        "ADS_Walk": 2.46,
+        "Penetration": "Medium",
+        "Alternate": {
+          "Zoom": "1.25",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0.157,
+          "FireRate": 8.325
+        }
+      }
+    }
+  ]

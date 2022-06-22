@@ -1,0 +1,111 @@
+[
+    {
+      "Name": "Stinger",
+      "ID": "F7E1B454-4AD4-1063-EC0A-159E56B58941",
+      "weapon_name": "STINGER",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt55951cb43513b87d/5eb7c2209c5d3e37e05f27b6/stinger.png",
+        "title": "stinger.png"
+      },
+      "weapon_tagline": "They’ll know it's over when the Stinger splash hits",
+      "weapon_category_machine_name": "smgs",
+      "weapon_hover_description": [
+        "This SMG is more potent at medium to long range than its counterparts, but at the cost of firing rate and mobility.",
+        "The 20-round mag gets wasted in recoil-filled sprays, but lands lethal blows at medium distances with ADS and controlled fire."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 20,
+            "Head": 67,
+            "Body": 27,
+            "Leg": 23
+          },
+          {
+            "MinDistance": 20,
+            "MaxDistance": 50,
+            "Head": 62,
+            "Body": 25,
+            "Leg": 21
+          }
+        ],
+        "CredCost": 950,
+        "EquipSpeed": 0.75,
+        "ReloadSpeed": 2.25,
+        "MagazineBullets": 20,
+        "ExtraMagazine": 3,
+        "TotalBullets": 80,
+        "FireRate": 18,
+        "Spread": 0.65,
+        "Run": 5.73,
+        "ADS_Run": 4.36,
+        "Walk": 3.43,
+        "ADS_Walk": 2.62,
+        "Penetration": "Low",
+        "Alternate": {
+          "Mode": "4-Round Burst",
+          "Zoom": "1.15",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Reduction",
+          "Spread": 0.4,
+          "FireRate": 8.47
+        }
+      }
+    },
+    {
+      "Name": "Spectre",
+      "ID": "462080D1-4035-2937-7C09-27AA2A5C27A7",
+      "weapon_name": "SPECTRE",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a6f9eb97f755412/5eb281cae11e6a13a6f613ed/spectre.png",
+        "title": "spectre.png"
+      },
+      "weapon_tagline": "When in doubt, the Spectre is your number one.",
+      "weapon_category_machine_name": "smgs",
+      "weapon_hover_description": [
+        "A jack-of-all-trades weapon with a great balance of damage, fire rate, and accuracy—at both short and mid range.",
+        "It haunts the corners of every map and requires only steady aim to drop foes at long distance."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 20,
+            "Head": 78,
+            "Body": 26,
+            "Leg": 22
+          },
+          {
+            "MinDistance": 20,
+            "MaxDistance": 50,
+            "Head": 66,
+            "Body": 22,
+            "Leg": 18
+          }
+        ],
+        "CredCost": 1600,
+        "EquipSpeed": 0.75,
+        "ReloadSpeed": 2.25,
+        "MagazineBullets": 30,
+        "ExtraMagazine": 3,
+        "TotalBullets": 120,
+        "FireRate": 13.33,
+        "Spread": 0.4,
+        "Run": 5.73,
+        "Walk": 3.43,
+        "ADS_Run": 4.36,
+        "ADS_Walk": 2.62,
+        "Penetration": "Medium",
+        "Alternate": {
+          "Zoom": "1.15",
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0.25,
+          "FireRate": 8.47
+        }
+      }
+    }
+  ]

@@ -1,0 +1,108 @@
+[
+    {
+      "Name": "Ares",
+      "ID": "55D8A0F4-4274-CA67-FE2C-06AB45EFDF58",
+      "weapon_name": "ARES",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt371bee690082f494/5eb281c3e11e6a13a6f613e9/ares.png",
+        "title": "ares.png"
+      },
+      "weapon_tagline": "Don’t mistake it’s size for clunk.",
+      "weapon_category_machine_name": "heavies",
+      "weapon_hover_description": [
+        "The Ares’ large magazine means it excels at suppressive fire or dealing heavy damage to clustered groups."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 30,
+            "Head": 72,
+            "Body": 30,
+            "Leg": 25
+          },
+          {
+            "MinDistance": 30,
+            "MaxDistance": 50,
+            "Head": 67,
+            "Body": 28,
+            "Leg": 23
+          }
+        ],
+        "CredCost": 1600,
+        "EquipSpeed": 1.25,
+        "ReloadSpeed": 3.25,
+        "MagazineBullets": 50,
+        "ExtraMagazine": 2,
+        "TotalBullets": 150,
+        "FireRate": 13,
+        "Spread": 0.8,
+        "Run": 5.13,
+        "Walk": 3.06,
+        "ADS_Run": 3.9,
+        "ADS_Walk": 2.33,
+        "Penetration": "High",
+        "Alternate": {
+          "Zoom": 1.25,
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0.67,
+          "FireRate": 13
+        }
+      }
+    },
+    {
+      "Name": "Odin",
+      "ID": "63E6C2B6-4A8E-869C-3D4C-E38355226584",
+      "weapon_name": "ODIN",
+      "weapon_asset": {
+        "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0884ed7405d3646c/5eb281c38f7a7c3f6ec725e1/odin.png",
+        "title": "odin.png"
+      },
+      "weapon_tagline": "Wielding this hammer of a machine threatens glory for the holder and ruin for the foe.",
+      "weapon_category_machine_name": "heavies",
+      "weapon_hover_description": [
+        "Suppressive, high damage fire with surprising stability. Spray enemies at short range and use alt. fire to make yourself a living turret."
+      ],
+      "Stats": {
+        "Mode": "Full-Automatic",
+        "Damage": [
+          {
+            "MinDistance": 0,
+            "MaxDistance": 30,
+            "Head": 95,
+            "Body": 38,
+            "Leg": 32
+          },
+          {
+            "MinDistance": 30,
+            "MaxDistance": 50,
+            "Head": 77,
+            "Body": 31,
+            "Leg": 26
+          }
+        ],
+        "CredCost": 3200,
+        "EquipSpeed": 1.25,
+        "ReloadSpeed": 5,
+        "MagazineBullets": 100,
+        "ExtraMagazine": 2,
+        "TotalBullets": 300,
+        "FireRate": 15.6,
+        "Spread": 0.8,
+        "Run": 5.13,
+        "Walk": 3.06,
+        "ADS_Run": 3.9,
+        "ADS_Walk": 2.33,
+        "Penetration": "High",
+        "Alternate": {
+          "Zoom": 1.25,
+          "Crosshair": "Follows recoil",
+          "SpreadType": "Slight reduction",
+          "ADS_Spread": 0.79,
+          "FireRate": 15.6
+        }
+      }
+    }
+  ]
