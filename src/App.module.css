@@ -46,7 +46,7 @@
 }
 
 .marketArea{
-    padding: 10%;
+    padding: 5% 5%;
     display: flex;
 }
 
@@ -71,7 +71,7 @@
 
 .pistolColumn{
     margin-bottom: 8px;
-    margin-right: 15px;
+    margin-right: 25px;
     width: 130px;
 }
 
