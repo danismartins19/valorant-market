@@ -10,13 +10,26 @@ import snipers from './lib/snipers.json';
 import machines from './lib/machines.json';
 import { useState, useEffect } from "react";
 import { Smg } from "./components/Smg";
+import { Shotgun } from "./components/Shotgun";
+import { Sniper } from "./components/Sniper";
+import { Machine } from "./components/Machine";
+import { Rifle } from "./components/Rifle";
 
 const App = () => {
 
   const [currentWeapon, setCurrentWeapon] = useState<string>("29A0CFAB-485B-F5D5-779A-B59F85E204A8");
 
+
+
+
+  const updateBanner = () => {
+    let weaponBanner = weapons.find(item => item.ID === currentWeapon);
+    
+
+  }
+
   useEffect(()=>{
-    console.log(weapons.find(item => item.ID === currentWeapon))
+    updateBanner
   },[currentWeapon])
 
 
@@ -35,8 +48,8 @@ const App = () => {
 
           <div className={styles.pistolColumn}>
             <p className={styles.banner}>PISTOLA</p>
-            {pistols.map((pistol)=>(
-              <Pistol name={pistol.Name} url={pistol.weapon_asset.url} price={pistol.Stats.CredCost} key={pistol.ID} ID={pistol.ID} onHover={hoverWeapon} />
+            {pistols.map((weapon)=>(
+              <Pistol name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
             ))}
           </div>
 
@@ -45,13 +58,16 @@ const App = () => {
 
             <div className={styles.smgColumn}>
               <p className={styles.banner}>SMGs</p>
-              {smgs.map((smg)=>(
-                <Smg ID={smg.ID} name={smg.Name} url={smg.weapon_asset.url} price={smg.Stats.CredCost} key={smg.ID} onHover={hoverWeapon} />
+              {smgs.map((weapon)=>(
+                <Smg name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
               ))}
             </div>
 
             <div className={styles.shotgunColumn}>
               <p className={styles.banner}>SHOTGUNS</p>
+              {shotguns.map((weapon)=>(
+                 <Shotgun name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
+              ))}
             </div>
 
 
@@ -59,6 +75,9 @@ const App = () => {
 
           <div className={styles.rifleColumn}>
             <p className={styles.banner}>RIFLES</p>
+            {rifles.map((weapon)=>(
+              <Rifle name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
+            ))}
           </div>
 
           <div className={styles.column}>
@@ -66,14 +85,25 @@ const App = () => {
 
             <div className={styles.sniperColumn}>
               <p className={styles.banner}>SNIPERS</p>
+              {snipers.map((weapon)=>(
+                <Sniper name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
+              ))}
+
             </div>
 
             <div className={styles.machineColumn}>
               <p className={styles.banner}>MACHINE GUNS</p>
+              {machines.map((weapon)=>(
+                <Machine name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
+              ))}
+
             </div>
 
 
           </div>
+
+          
+
         </div>
 
       </div>
