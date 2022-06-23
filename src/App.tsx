@@ -1,7 +1,22 @@
 import styles from "./App.module.css";
 import background from "./assets/background.png";
+import { Pistol } from "./components/Pistol";
+import pistols from './lib/pistols.json';
+import weapons from './lib/weapons.json'
+import { useState, useEffect } from "react";
 
 const App = () => {
+
+  const [currentWeapon, setCurrentWeapon] = useState<string>("29A0CFAB-485B-F5D5-779A-B59F85E204A8");
+
+  useEffect(()=>{
+    console.log(weapons.find(item => item.ID === currentWeapon))
+  },[currentWeapon])
+
+
+  const hoverWeapon = (ID: string) =>{
+    setCurrentWeapon(ID)
+  }
 
 
   return (
@@ -14,7 +29,9 @@ const App = () => {
 
           <div className={styles.pistolColumn}>
             <p className={styles.banner}>PISTOLA</p>
-            
+            {pistols.map((pistol)=>(
+              <Pistol name={pistol.Name} url={pistol.weapon_asset.url} price={pistol.Stats.CredCost} key={pistol.ID} ID={pistol.ID} onHover={hoverWeapon} />
+            ))}
           </div>
 
           <div className={styles.column}>
@@ -46,7 +63,7 @@ const App = () => {
               <p className={styles.banner}>MACHINE GUNS</p>
             </div>
 
-            
+
           </div>
         </div>
 
