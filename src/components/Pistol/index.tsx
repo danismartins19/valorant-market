@@ -12,9 +12,9 @@ export const Pistol = ({name, price, url, onHover, ID}: WeaponType) =>{
 
     return(
         <div className={styles.pistol} onMouseEnter={handleHover}>
-            <img src={url} alt="imagem" />
-            <p>{price}</p>
-            <p>{name}</p>
+            <img src={url} alt="imagem" className={styles.img}/>
+            <p className={styles.price}>{price}</p>
+            <p className={styles.name}>{name}</p>
         </div>
     )
 }

@@ -1,3 +1,13 @@
 .pistol{
-    
+    height: 100px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
 }
