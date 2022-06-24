@@ -30,10 +30,11 @@
 .market{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     height: 70%;
     width: 70%;
+    margin-top: -10%;
 }
 
 .market::before{
@@ -42,7 +43,7 @@
     background-color: rgb(19, 17, 17);
     filter: opacity(20%);
     width: 70%;
-    height: 70%;
+    height: auto;
 }
 
 .marketArea{
@@ -102,3 +103,43 @@
     margin-bottom: 8px;
     width: 280px;
 }
+
+.columnInfo{
+    margin-left: 5%;
+    height: 96%;
+    width: 300px;
+    background-color: rgba(19, 17, 17, 0.342);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.headArea{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(54, 95, 64, 0.589);
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.headAreaTitle{
+    font-family: Tungsten-Bold;
+    font-size: 24px;
+    color: rgb(215, 215, 228);
+}
+
+.imgArea{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(238, 217, 217, 0.24);
+    margin-bottom: 8px;
+}
+
+.imgAreaImg{
+    width: 95%;
+}
+

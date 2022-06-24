@@ -18,18 +18,17 @@ import { Rifle } from "./components/Rifle";
 const App = () => {
 
   const [currentWeapon, setCurrentWeapon] = useState<string>("29A0CFAB-485B-F5D5-779A-B59F85E204A8");
+  const [hoveredTitle, setHoveredTitle] = useState<any>('');
+  const [hoveredImg, setHoveredImg] = useState<any>('');
 
 
 
-
-  const updateBanner = () => {
-    let weaponBanner = weapons.find(item => item.ID === currentWeapon);
-    
-
-  }
 
   useEffect(()=>{
-    updateBanner
+    let weaponBanner = weapons.find(item => item.ID === currentWeapon);
+    setHoveredTitle(weaponBanner?.weapon_name);
+    setHoveredImg(weaponBanner?.weapon_asset.url);
+
   },[currentWeapon])
 
 
@@ -49,7 +48,7 @@ const App = () => {
           <div className={styles.pistolColumn}>
             <p className={styles.banner}>PISTOLA</p>
             {pistols.map((weapon)=>(
-              <Pistol name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
+              <Pistol name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
             ))}
           </div>
 
@@ -59,14 +58,14 @@ const App = () => {
             <div className={styles.smgColumn}>
               <p className={styles.banner}>SMGs</p>
               {smgs.map((weapon)=>(
-                <Smg name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
+                <Smg name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
               ))}
             </div>
 
             <div className={styles.shotgunColumn}>
               <p className={styles.banner}>SHOTGUNS</p>
               {shotguns.map((weapon)=>(
-                 <Shotgun name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
+                 <Shotgun name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
               ))}
             </div>
 
@@ -76,7 +75,7 @@ const App = () => {
           <div className={styles.rifleColumn}>
             <p className={styles.banner}>RIFLES</p>
             {rifles.map((weapon)=>(
-              <Rifle name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
+              <Rifle name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
             ))}
           </div>
 
@@ -86,7 +85,7 @@ const App = () => {
             <div className={styles.sniperColumn}>
               <p className={styles.banner}>SNIPERS</p>
               {snipers.map((weapon)=>(
-                <Sniper name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
+                <Sniper name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon}  />
               ))}
 
             </div>
@@ -94,7 +93,7 @@ const App = () => {
             <div className={styles.machineColumn}>
               <p className={styles.banner}>MACHINE GUNS</p>
               {machines.map((weapon)=>(
-                <Machine name={weapon.Name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
+                <Machine name={weapon.weapon_name} url={weapon.weapon_asset.url} price={weapon.Stats.CredCost} key={weapon.ID} ID={weapon.ID} onHover={hoverWeapon} />
               ))}
 
             </div>
@@ -102,7 +101,17 @@ const App = () => {
 
           </div>
 
-          
+          <div className={styles.columnInfo}>
+                  <div className={styles.headArea}>
+                    <p className={styles.headAreaTitle}>{hoveredTitle}</p>
+                  </div>
+
+                  <div className={styles.imgArea}>
+                      <img src={hoveredImg} alt="Arma" className={styles.imgAreaImg} />
+                  </div>
+
+                  <div className={styles.damageArea}></div>
+          </div>
 
         </div>
 
