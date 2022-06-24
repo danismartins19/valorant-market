@@ -110,7 +110,14 @@ const App = () => {
                       <img src={hoveredImg} alt="Arma" className={styles.imgAreaImg} />
                   </div>
 
-                  <div className={styles.damageArea}></div>
+                  <div className={styles.damageArea}>
+                    <div className={styles.damageAreaInfo}>
+                        <p className={styles.damageAreaInfoTitle}>DAMAGE</p>
+                        <p className={styles.damageAreaInfoHead}>CABEÇA</p>
+                        <p className={styles.damageAreaInfoBody}>CORPO</p>
+                        <p className={styles.damageAreaInfoLegs}>PERNAS</p>
+                    </div>
+                  </div>
           </div>
 
         </div>

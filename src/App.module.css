@@ -107,7 +107,7 @@
 .columnInfo{
     margin-left: 5%;
     height: 96%;
-    width: 300px;
+    width: 400px;
     background-color: rgba(19, 17, 17, 0.342);
     display: flex;
     flex-direction: column;
@@ -142,4 +142,15 @@
 .imgAreaImg{
     width: 95%;
 }
+
+.damageArea{
+    width: 100%;
+    height: 200px;
+}
+
+.damageAreaInfo{
+
+}
+
+
 
